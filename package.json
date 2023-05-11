@@ -1,0 +1,51 @@
+{
+  "name": "gosocial",
+  "version": "0.1.0",
+  "author": {
+    "name": "Karishma Garg",
+    "email": "jainkarishma76@gmail.com",
+    "url": "http://Krrish105.github.io/karishmagarg/"
+  },
+  "homepage": "http://Krrish105.github.io/GoSocial-Landing-Page",
+  "description": "GoSocial Landing Page Clone built by Karishma Garg.",
+  "repository": "https://github.com/Krrish105/GoSocial-Landing-Page",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.3",
+    "@testing-library/user-event": "^13.5.0",
+    "gh-pages": "^3.2.3",
+    "pagination": "^0.4.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "5.0.0",
+    "swiper": "^8.0.6",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
